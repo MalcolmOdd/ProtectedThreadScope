@@ -16,7 +16,7 @@ class ProtectedThreadScopeConfigTest {
     @Mock
     private ConfigurableListableBeanFactory beanFactory;
     @Test
-    void test() {
+    void testFactoryMethods() {
 	ProtectedThreadScopeConfig testee = new ProtectedThreadScopeConfig();
 	ProtectedThreadScopeManager manager = testee.protectedThreadScopeManager();
 	Assertions.assertNotNull(manager);

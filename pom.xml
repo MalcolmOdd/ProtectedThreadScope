@@ -4,12 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.l2o</groupId>
 	<artifactId>protectedthreadscope</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<description>Demo project for Spring Boot</description>
+	<version>0.0.1</version>
+	<description>ThreadLocal Scope for Spring Boot</description>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -56,4 +57,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub MalcolmOdd Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/MalcolmOdd/ProtectedThreadScope</url>
+		</repository>
+	</distributionManagement>
 </project>
